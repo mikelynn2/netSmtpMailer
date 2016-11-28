@@ -5,6 +5,8 @@ Copyright (c) by respective owners. All rights reserved.  Released under license
 
 Simple multi-threaded replacement for System.web.mail. Its is fast/stable because it only implements 1 smtp method - (200+ msg/sec P4-3GHZ). It is mainly designed for message injection to another SMTP server for end delivery. Written in 100% managed C#.
 
+Moved From https://sourceforge.net/projects/netsmtpmailer/
+
 
 ## VB Example
 ```
