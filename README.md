@@ -1,7 +1,7 @@
 # netSmtpMailer
 
 
-VB
+# VB
 Imports netSmtpMailer
 
 ''''' YOU ONLY NEED TO CALL THIS METHOD ONCE - EVER PER COMPUTER
@@ -25,7 +25,7 @@ SmtpMailer.SendMail()
 
 
 
-c#
+# c#
 
 Imports netSmtpMailer
 
