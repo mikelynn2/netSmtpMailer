@@ -1,7 +1,13 @@
 # netSmtpMailer
+```
+Copyright (c) by respective owners. All rights reserved.  Released under license as described in the file LICENSE.txt
+```
+
+Simple multi-threaded replacement for System.web.mail. Its is fast/stable because it only implements 1 smtp method - (200+ msg/sec P4-3GHZ). It is mainly designed for message injection to another SMTP server for end delivery. Written in 100% managed C#.
 
 
-# VB
+## VB Example
+```
 Imports netSmtpMailer
 
 ''''' YOU ONLY NEED TO CALL THIS METHOD ONCE - EVER PER COMPUTER
@@ -21,12 +27,13 @@ SmtpMailer.BODYTEXT = "Did you get this email?"
 SmtpMailer.BODYTYPE = 0     '1 = html 0 = text
 SmtpMailer.SMTPSERVER = "10.1.1.21"  '"mx3.mail.yahoo.com" ' '
 SmtpMailer.SendMail()
+```
 
 
 
+## c# Example
 
-# c#
-
+```
 Imports netSmtpMailer
 
 ///// YOU ONLY NEED TO CALL THIS METHOD ONCE - EVER PER COMPUTER
@@ -48,3 +55,6 @@ SmtpMailer.BODYTEXT = "Did you get this email?";
 SmtpMailer.BODYTYPE = 0;
 SmtpMailer.SMTPSERVER = "10.1.1.21";
 SmtpMailer.SendMail();
+```
+
+
